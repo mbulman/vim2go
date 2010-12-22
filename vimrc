@@ -6,6 +6,9 @@
 "
 "-------------------------------+
 
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 " Use Vim settings, rather than Vi settings
 set nocp
 
